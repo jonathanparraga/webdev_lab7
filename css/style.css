@@ -6,6 +6,11 @@
   margin: 0;
   min-height: 100vh;
 }
+#top {
+  color: #fff;
+{
+	
+
 	
 #planets {
   width: 100%;
@@ -38,7 +43,6 @@
 
 #planets tr.planet-row th {
   padding: 10px 12px;
-  color: #fff;
   font-weight: 700;
   text-align: center;
 }
