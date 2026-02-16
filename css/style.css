@@ -1,6 +1,16 @@
+.page {
+  background-image: url("../images/space.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  min-height: 100vh;
+}
+
 #planets {
   width: 100%;
   border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.92);
 }
 
 #planets th,
@@ -32,11 +42,6 @@
 }
 
 
-#planets tr.planet-row td {
-  padding: 0;
-}
-
-
 #planets tr.planet-row th {
   padding: 10px 12px;
   color: #fff;
@@ -53,8 +58,5 @@
   margin: 0;
 }
 
-#planets thead th {
-  background-color: #000;
-  color: #fff;
-}
+
 
