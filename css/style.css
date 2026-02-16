@@ -25,10 +25,25 @@
   background-color: #eaeaea;
 }
 
-.planet-img {
-  width: 200px;
+#planets tr.planet-row .planet-img{
+  width: 100%;
   height: 200px;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
-  margin: 0 auto;
+  margin: 0;
+}
+
+#planets tr.planet-row {
+  background-color: #000;
+}
+
+#planets tr.planet-row td {
+  padding: 0;             
+}
+
+#planets tr.planet-row td:first-child {
+  padding: 10px 12px;     
+  color: #fff;
+  font-weight: 700;
+  background-color: #000;
 }
