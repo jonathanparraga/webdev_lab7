@@ -26,9 +26,9 @@
 }
 
 
-#planets tr.planet-row th,
 #planets tr.planet-row td {
   background-color: #000;
+  padding: 0; 
 }
 
 
@@ -50,4 +50,5 @@
   height: 200px;     
   object-fit: cover; 
   display: block;
+  margin: 0;
 }
