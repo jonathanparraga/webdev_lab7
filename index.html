@@ -2,11 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Your Title Here</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Planetary Fact Sheet</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <h1>Planetary Fact Sheet</h1>
+<body class="page">
+  <header class="site-header" id="top">
+    <h1 class="title">Planetary Fact Sheet</h1>
+    <p class="subtitle">
+      A side-by-side comparison of four planets using NASA NSSDC data.
+    </p>
+  </header>
+ 
   <table id="planets">
     <tr>
       <th></th>
@@ -17,10 +24,10 @@
     </tr>
     <tr>
       <td>Images of Planets</td>
-      <td><img src="images/jupiter.jpg" alt="jupiter planet"></td>
-      <td><img src="images/neptune.jpg" alt="neptune planet"></td>
-      <td><img src="images/saturn.jpg" alt="saturn planet"></td>
-      <td><img src="images/uranus.jpg" alt="uranus planet"></td>
+      <td><img class="planet-img" src="images/jupiter.jpg" alt="jupiter planet"></td>
+      <td><img class="planet-img" src="images/neptune.jpg" alt="neptune planet"></td>
+      <td><img class="planet-img" src="images/saturn.jpg" alt="saturn planet"></td>
+      <td><img class="planet-img" src="images/uranus.jpg" alt="uranus planet"></td>
     </tr>
     <tr>
       <td>Orbit and Rotation</td>

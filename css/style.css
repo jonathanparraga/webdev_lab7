@@ -1,4 +1,34 @@
-td, th {
-	border: 1px solid;
-  }
-  
+#planets {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#planets th,
+#planets td {
+  border: 1px solid #cfcfcf;
+  padding: 10px 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#planets thead th {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+#planets tbody tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+#planets tbody tr:hover {
+  background-color: #eaeaea;
+}
+
+.planet-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
