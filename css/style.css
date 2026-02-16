@@ -6,7 +6,14 @@
   margin: 15;
   min-height: 100vh;
 }
-
+#top {
+  background-image: url("../images/space.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+{
+	
 #planets {
   width: 100%;
   border-collapse: collapse;
